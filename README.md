@@ -3,7 +3,7 @@
 **Date:** 2026-05-30
 **Status:** Specification
 **Scope:** Molecular representation for Markush structures, attachment points, and abstract rings in chemical documents
-
+本仓库仅为个人对该格式的理解不代表完全正确
 ---
 
 ## 概述 | Overview
