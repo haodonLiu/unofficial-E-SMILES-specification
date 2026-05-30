@@ -3,7 +3,7 @@
 **Date:** 2026-05-30
 **Status:** Specification
 **Scope:** Molecular representation for Markush structures, attachment points, and abstract rings in chemical documents
-本仓库仅为个人对该格式的理解不代表完全正确
+本仓库仅为个人对该格式的理解不代表完全正确  
 ---
 
 ## 概述 | Overview
@@ -46,7 +46,7 @@ SMILES<sep>EXTENSION
 
 1. **无 Markush 特征时**，EXTENSION 为空，整个字符串退化为标准 SMILES：
    ```
-   CC(=O)O   ← 合法的 E-SMILES（退化为标准 SMILES）
+   CC(=O)O   ← 合法的 E-SMILES（退化为标准 SMILES）{但是根据该论文发表的数据库来看，所有的smiles都会添加<sep>，以确保格式正确}
    ```
 2. **存在 Markush 特征时**，格式 **必须** 包含 `<sep>`：
    ```
